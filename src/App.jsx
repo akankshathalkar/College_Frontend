@@ -16,6 +16,17 @@ import AcademicHoliday from "./pages/academics/academic-holiday";
 import AcademicCommittee from "./pages/academics/academic-committee";
 import Administration from "./pages/academics/administration";
 
+function Home() {
+  return (
+    <main className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <h1 className="text-5xl font-bold text-[#0b2d4d]">
+        PIRENS IBMA
+      </h1>
+    </main>
+  );
+}
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -70,7 +81,6 @@ function App() {
           path="/academics/administration"
           element={<Administration />}
         />
-
       </Routes>
 
       <Footer />
