@@ -12,7 +12,7 @@ import AcademicCalendar from "./pages/academics/academic-calendar";
 import AcademicHoliday from "./pages/academics/academic-holiday";
 import AcademicCommittee from "./pages/academics/academic-committee";
 import Administration from "./pages/academics/administration";
-import Cce from "./pages/academics/cce";
+//import Cce from "./pages/academics/cce";
 
 function Home() {
   return (
@@ -81,11 +81,8 @@ function App() {
           element={<Administration/>}
         />
 
-        {/*academics Cce*/ }
-        <Route
-          path="/academics/cce"
-          element={<Cce/>}
-        />
+     //
+
 
 
 
